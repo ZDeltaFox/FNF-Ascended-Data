@@ -1,2 +1,2 @@
-Lts 1.1
-Version
+$/d/Lts 1.1/d/$
+$/d/Version/d/$
