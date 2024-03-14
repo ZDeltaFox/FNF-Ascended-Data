@@ -1,6 +1,6 @@
 --START--
-<b>Ascended BETA v13.2
-* Hold arrows, they are functional at the moment only with the keyboard, but I am implementing touch support.
+<b>Ascended RLS v1.1
+* Hold arrows!
 * New converter, I have redone the converter, using a script similar to that of FNF and through Regex, modify and solve "compatibility" errors, and then load it and modify certain arrays, which will be saved in a .dat file
 * Support for some secondary animations (when you miss an arrow).
 * Pause menu.
