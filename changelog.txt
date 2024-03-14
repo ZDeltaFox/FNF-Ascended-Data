@@ -1,11 +1,11 @@
 --START--
-<b>Ascended RLS v1.1
-* Hold arrows!
-* New converter, I have redone the converter, using a script similar to that of FNF and through Regex, modify and solve "compatibility" errors, and then load it and modify certain arrays, which will be saved in a .dat file
-* Support for some secondary animations (when you miss an arrow).
-* Pause menu.
+<b>Ascended RLS v1.1</b>
+* Hold arrows.
+* New chart converter.
+* New arrow types.
+* New pause menu.
 * Streaks.
 * Fix some performance issues.
-* Fixed an issue where the game would desync if you left it in the background, now open the pause menu to prevent that.
-* The arrows now disappear after 0.1 sec, after finishing their course, eliminating the progress of the streak and lowering score and life points, before they remained, greatly reducing performance.
+* Added Touch support.
+* Added a Launcher
 --END--
