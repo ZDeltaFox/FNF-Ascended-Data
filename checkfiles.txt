@@ -1,0 +1,5 @@
+--START--
+Friday Night Funkin' Ascended.exe
+UnityCrashHandler64.exe
+UnityPlayer.dll
+--END--
