@@ -1,7 +1,8 @@
 --START--
-https://Image1.png
 https://Mod1.com
+https://Image1.png
 By: @KorvusDev
-https://Image2.png
 https://Mod2.com
+https://Image2.png
+By: @HeyMega3
 --END--
