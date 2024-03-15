@@ -1,8 +1,22 @@
+--NAME
+--MOD URL
+--IMAGE URL
+--CREATOR
+--FOLDER
+
 --START--
+
+Tricky
 https://Mod1.com
 https://Image1.png
 By: @KorvusDev
+Ascended
+
+-----
+
+Ascended
 https://Mod2.com
 https://Image2.png
 By: @HeyMega3
+
 --END--
