@@ -1,30 +1,23 @@
 import os
 
-def listar_carpetas_en_directorio(ruta_directorio):
-    # Inicializamos una lista vacía para almacenar las rutas completas de las carpetas
-    lista_carpetas = []
+def listar_carpetas(directory_route):
+    folder_list = []
 
-    # Iteramos sobre las carpetas en el directorio y sus subdirectorios
-    for raiz, directorios, archivos in os.walk(ruta_directorio):
-        for directorio in directorios:
-            # Agregamos la ruta completa de la carpeta a la lista
-            ruta_completa = os.path.join(raiz, directorio)
-            lista_carpetas.append(ruta_completa)
+    for root, directorys, files in os.walk(directory_route):
+        for directory in directorys:
+            full_route = os.path.join(root, directory)
+            folder_list.append(full_route)
 
-    return lista_carpetas
+    return folder_list
 
-# Obtenemos la ruta del directorio donde se encuentra este archivo
-ruta_actual = os.path.dirname(os.path.abspath(__file__))
+current_route = os.path.dirname(os.path.abspath(__file__))
 
-# Obtenemos la lista de carpetas en el directorio actual y sus subdirectorios
-carpetas = listar_carpetas_en_directorio(ruta_actual)
+folders = listar_carpetas(current_route)
 
-# Guardamos la lista de carpetas en un archivo llamado "checkfolders.txt"
-with open("checkfolders.txt", "w") as archivo_salida:
-    archivo_salida.write("--START--\n")
-    for carpeta in carpetas:
-        archivo_salida.write(carpeta + "\n")
-    archivo_salida.write("--END--")
+with open("checkfolders.txt", "w") as output_file:
+    output_file.write("--START--\n")
+    for folder in folders:
+        output_file.write(folder + "\n")
+    output_file.write("--END--")
 
-# Imprimimos un mensaje de éxito
-print("Las rutas de las carpetas se han guardado en checkfolders.txt")
+print("Rutas guardadas en checkfolders.txt")
