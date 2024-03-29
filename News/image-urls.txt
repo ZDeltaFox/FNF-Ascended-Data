@@ -1,9 +1,3 @@
 --START--
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/1.png?raw=true
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/2.png?raw=true
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/3.png?raw=true
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/4.png?raw=true
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/5.png?raw=true
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/6.png?raw=true
-https://github.com/ZDeltaFox/FNF-Ascended-Data/blob/main/News/7.png?raw=true
+https://drive.google.com/uc?export=download&id=1RcxvdZ5IAIBUfcEovRyN6yIsQ8-qekTx
 --END--
